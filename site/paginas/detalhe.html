@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Produto</title>
+  <link rel="stylesheet" href="../css/detalhes.css">
+  <link rel="stylesheet" href="../css/carrinho.css">
+  <!--Link para acessar os ícones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+  <section id="faixa">
+    <div id="faixas">
+      <p>EIII, NADA É DESPERDIÇADO!!!</p>
+    </div>
+  </section>
+  <header>
+    <div id="logo">
+      <img src="../img/LogoEscrito.png" alt="logo_principal">
+    </div>
+
+    <div id="menu">
+      <nav>
+        <a href="./index.html">Categorias</a>
+        <a href="#" onclick="enviarMensagem()">Suporte</a>
+        <div id="MenuCarrinho">
+                        <img src="../img/carrinho.png" alt="carrinho">
+        </div>
+        <div id="cartBox" class="hidden">
+            <div id="cartItems"></div>
+                <div class="cartFooter">
+                    <div>Total: R$ <span id="cartTotal">0.00</span></div>
+                        <div class="checkout">
+                            <button id="clearBtn">Limpar</button>
+                            <button id="checkoutBtn">Finalizar</button>
+                        </div>
+                    </div>
+                </div>
+
+        <a href="./login.html">| Entrar</a>
+        <a class="diferente" href="./cadastrar.html">Cadastrar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="productDetails"></div>
+  </main>
+  <footer>
+    <div class="site">
+      <h2>Sobre Nós</h2>
+      <p class="Sobre">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla quod ex perspiciatis recusandae tenetur eius odit quo optio sapiente facere sunt, voluptatem minus ratione eligendi. Natus quos fuga dolorem?
+      </p>
+      <img src="../img/LogoEscrito.png" alt="logo">
+      <p class="Direitos">&copy; Todos os Direitos Reservados</p>
+    </div>
+  </footer>
+  <script src="../js/carinho.js" ></script>
+  <script src="../js/detalhe.js" defer></script>
+   <div id="customAlertContainer"></div>
+</body>
+</html>
